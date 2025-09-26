@@ -7,34 +7,36 @@ export default function Home(){
         <div className="swiper th-slider hero-slider4" id="heroSlider4" data-slider-options="{&quot;effect&quot;:&quot;fade&quot;,&quot;autoHeight&quot;: &quot;true&quot;}">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <div className="hero-inner" data-bg-src="/img/hero/hero_bg_4_1.jpg">
+              <div className="hero-inner" data-bg-src="/img/pics/1.jpg" style={{ backgroundImage: 'url(/img/pics/1.jpg)' }}>
                 <div className="hero-bg-shape4-1">
-                  <Image width={158} height={60} src="/img/hero/hero-bg-shape4-1.png" alt="img" />
+                  <Image width={100} height={50} src="/img/hero/hero-bg-shape4-1.png" alt="img" />
                 </div>
                 <div className="hero-bg-shape4-2 shake">
-                  <Image width={158} height={60} src="/img/hero/hero-bg-shape4-2.png" alt="img" />
+                  <Image width={100} height={60} src="/img/hero/hero-bg-shape4-2.png" alt="img" />
                 </div>
                 <div className="hero-bg-shape4-3 jump d-xl-inline-block d-none">
-                  <Image width={158} height={60} src="/img/hero/hero-bg-shape4-3.png" alt="img" />
+                  <Image width={100} height={60} src="/img/hero/hero-bg-shape4-3.png" alt="img" />
                 </div>
                 <div className="hero-bg-shape4-4 jump-reverse">
-                  <Image width={158} height={60} src="/img/hero/hero-bg-shape4-4.png" alt="img" />
+                  <Image width={100} height={60} src="/img/hero/hero-bg-shape4-4.png" alt="img" />
                 </div>
                 <div className="hero-bg-shape4-5">
-                  <Image width={158} height={60} src="/img/hero/hero-bg-shape4-5.png" alt="img" />
+                  <Image width={100} height={60} src="/img/hero/hero-bg-shape4-5.png" alt="img" />
                 </div>
                 <div className="container">
                   <div className="row">
                     <div className="col-xl-9">
                       <div className="hero-style4">
-                        <span className="sub-title after-none" data-ani="slideinup" data-ani-delay="0.2s">Making a Difference</span>
+                        <span className="sub-title after-none" data-ani="slideinup" data-ani-delay="0.2s">Welcome to,</span>
                         <h1 className="hero-title text-white">
                           <span className="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                            Changing Lives, One </span>
-                          <span className="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                            Donation at a Time </span>
+                          Hope for the World Youth Association (HoWoYA),</span>
                         </h1>
-                        <p className="hero-text text-white" data-ani="slideinup" data-ani-delay="0.6s">Explore the variety of volunteer opportunities available. From event planning and fundraising to fieldwork and administrative support</p>
+                        <p className="hero-text text-white" data-ani="slideinup" data-ani-delay="0.6s">
+                          a registered non-profit in Cameroon dedicated to transforming communities and inspiring change.
+                          We empower young people, uplift the vulnerable, and protect the environment, unlocking the potential 
+                          within every individual and community. Together, we’re building a brighter, more resilient future for Cameroon.
+                        </p>
                         <div className="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
                           <a href="about.html" className="th-btn">Discover Now<i className="fa-solid fa-arrow-up-right ms-2" /></a>
                           <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn style3 popup-video"><i className="fas fa-play" /></a>
@@ -101,39 +103,19 @@ export default function Home(){
                 <div className="hero-bg-shape4-5">
                   <Image width={158} height={60} src="/img/hero/hero-bg-shape4-5.png" alt="img" />
                 </div>
-                <div className="container">
-                  <div className="row">
-                    <div className="col-xl-9">
-                      <div className="hero-style4">
-                        <span className="sub-title after-none" data-ani="slideinup" data-ani-delay="0.2s">Making a Difference</span>
-                        <h1 className="hero-title text-white">
-                          <span className="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                            Every Donation Counts </span>
-                          <span className="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                            Help Us Change Lives </span>
-                        </h1>
-                        <p className="hero-text text-white" data-ani="slideinup" data-ani-delay="0.6s">Explore the variety of volunteer opportunities available. From event planning and fundraising to fieldwork and administrative support</p>
-                        <div className="btn-wrap" data-ani="slideinup" data-ani-delay="0.7s">
-                          <a href="about.html" className="th-btn">Discover Now<i className="fa-solid fa-arrow-up-right ms-2" /></a>
-                          <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn style3 popup-video"><i className="fas fa-play" /></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="hero-thumb-tab" data-slider-tab=".hero-slider4">
           <div className="tab-btn active">
-            <Image width={158} height={60} src="/img/hero/hero_bg_4_1.jpg" alt="thumb" />
+            <Image width={158} height={60} src="/img/pics/1.jpg" alt="thumb" />
           </div>
           <div className="tab-btn">
-            <Image width={158} height={60} src="/img/hero/hero_bg_4_2.jpg" alt="thumb" />
+            <Image width={158} height={60} src="/img/pics/2.jpg" alt="thumb" />
           </div>
           <div className="tab-btn">
-            <Image width={158} height={60} src="/img/hero/hero_bg_4_3.jpg" alt="thumb" />
+            <Image width={158} height={60} src="/img/pics/3.jpg" alt="thumb" />
           </div>
         </div>
       </div>
@@ -141,6 +123,7 @@ export default function Home(){
       {/*==============================
     Counter Area  
     ==============================*/}
+    {/* 
       <div className="bg-smoke2 pt-80 pb-80">
         <div className="container">
           <div className="counter-wrap">
@@ -174,7 +157,8 @@ export default function Home(){
             <div className="divider" />
           </div>
         </div>
-      </div>{/*==============================
+      </div>*/}
+      {/*==============================
     About Area  
     ==============================*/}
       <div className="overflow-hidden space" id="about-sec">
@@ -188,44 +172,26 @@ export default function Home(){
           <div className="row align-items-center">
             <div className="col-xl-6 mb-50 mb-xl-0">
               <div className="img-box4">
-                <div className="img1" data-mask-src="/img/shape/about_mask4_1.png">
-                  <Image width={158} height={60} src="/img/normal/about_4_1.png" alt="About" />
-                </div>
-                <div className="img2 jump" data-mask-src="/img/shape/about_mask4_2.png">
-                  <Image width={158} height={60} data-mask-src="/img/shape/about_mask4_2.png" src="/img/normal/about_4_2.png" alt="img" />
-                </div>
+                <div className="img1" id="aboutImage">
+                  <Image width={498} height={160} src="/img/pics/3.jpg" alt="About" />
+                </div>              
               </div>
             </div>
             <div className="col-xl-6">
               <div className="about-wrap4">
                 <div className="title-area mb-30">
-                  <span className="sub-title before-none">About Us Charity</span>
-                  <h2 className="sec-title">Making a Difference, One Life at a Time</h2>
-                  <p className="sec-text">Our secure online donation platform allows you to make contributions quickly and safely. Choose from various payment methods and set up one-time or recurring donations with ease. Your support helps us continue our mission.</p>
-                </div>
-                <div className="about-feature-grid-wrap">
-                  <div className="about-feature-grid style2 mb-0">
-                    <div className="box-icon">
-                      <Image width={158} height={60} src="/img/icon/about-icon4-1.svg" alt="icon" />
-                    </div>
-                    <div className="media-body">
-                      <h4 className="box-title">Be a Hero, Contribute Now</h4>
-                    </div>
-                  </div>
-                  <div className="about-feature-grid style2 mb-0">
-                    <div className="box-icon" data-theme-color="var(--theme-color2)">
-                      <Image width={158} height={60} src="/img/icon/about-icon4-2.svg" alt="icon" />
-                    </div>
-                    <div className="media-body">
-                      <h4 className="box-title">Help Children with Donations</h4>
-                    </div>
-                  </div>
+                  <span className="sub-title before-none">About HoWoYA</span>
+                  <p className="sec-text">At Hope for the World Youth Association (HoWoYA), we believe in turning challenges into opportunities. As a registered non-profit in Cameroon, our mission is to empower youth, support vulnerable groups, advocate for health, and protect the environment.
+                    We envision a Cameroon where young people are resilient, creative, and actively engaged in building prosperous, healthy, and sustainable communities—free from marginalization and despair.
+                    Our work is guided by values of hope, empowerment, integrity, inclusion, innovation, sustainability, collaboration, and excellence.
+                    Through entrepreneurship programs, leadership training, community support initiatives, health advocacy, creative hubs, and environmental stewardship, HoWoYA equips individuals and communities with the skills and resources they need to thrive.
+                    Together with our partners, we are building a brighter, more resilient future for Cameroon.</p>
                 </div>
                 <div className="checklist mt-30">
                   <ul>
-                    <li><Image width={158} height={60} src="/img/icon/checklist-icon.svg" alt="icon" />Providing essential resources to underserved communities.</li>
-                    <li><Image width={158} height={60} src="/img/icon/checklist-icon.svg" alt="icon" />Offering support through educational and health programs.</li>
-                    <li><Image width={158} height={60} src="/img/icon/checklist-icon.svg" alt="icon" />Facilitating volunteer opportunities for community involvement.</li>
+                    <li><Image width={40} height={40} src="/img/icon/checklist-icon.svg" alt="icon" />Providing essential resources to underserved communities.</li>
+                    <li><Image width={40} height={40} src="/img/icon/checklist-icon.svg" alt="icon" />Offering support through educational and health programs.</li>
+                    <li><Image width={40} height={40} src="/img/icon/checklist-icon.svg" alt="icon" />Facilitating volunteer opportunities for community involvement.</li>
                   </ul>
                 </div>
                 <div className="btn-wrap style2 mt-40">
@@ -235,7 +201,8 @@ export default function Home(){
             </div>
           </div>
         </div>
-      </div>{/*==============================
+      </div>
+      {/*==============================
     Donation Area  
     ==============================*/}
       <section className="space overflow-hidden" data-bg-src="/img/bg/gray-bg3.png" id="donation-sec">
@@ -256,7 +223,7 @@ export default function Home(){
                 <div className="swiper-slide">
                   <div className="donation-card style4" data-theme-color>
                     <div className="box-thumb">
-                      <Image width={158} height={60} src="/img/donation/donation4-1.png" alt="image" />
+                      <Image width={30} height={30} src="/img/donation/donation4-1.png" alt="image" />
                     </div>
                     <h3 className="box-title"><a href="blog-details.html">Big charity: build school for poor children</a></h3>
                     <div className="box-content">

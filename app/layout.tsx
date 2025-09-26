@@ -57,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head className="no-js" lang="en">
-        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/img/pics/Favicon.png" type="image/x-icon" />
         {cssFiles.map((href) => (
           <link key={href} rel="stylesheet" href={href} />
         ))}

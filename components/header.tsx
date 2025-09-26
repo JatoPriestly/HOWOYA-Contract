@@ -20,7 +20,7 @@ export default function Header(){
                         </li>
                         <li className="woocommerce-mini-cart-item mini_cart_item">
                         <a href="#" className="remove remove_from_cart_button"><i className="far fa-times" /></a>
-                        <a href="#"><Image width={100} height={50} src="/img/product/product_thumb_1_2.png" alt="Cart Image" />Medicine</a>
+                        <a href="#"><Image width={100} height={50} src="/img/pics/Favicon.png" alt="Cart Image" />Medicine</a>
                         <span className="quantity">1 ×
                             <span className="woocommerce-Price-amount amount">
                             <span className="woocommerce-Price-currencySymbol">$</span>899.00</span>
@@ -112,8 +112,8 @@ export default function Header(){
                 {/* Main Menu Area */}
                 <div className="container">
                     <div className="menu-area">
-                    <div className="header-logo">
-                        <a href="#"><Image width={156} height={80} src="/img/logo.svg" alt="Donat" /></a>
+                    <div className="header-logo" id="logo" style={{ position: 'relative', width: '156px', height: '80px' }}>
+                        <a href="#"><Image src="/img/pics/RealLogo.svg" alt="Donat" fill style={{ objectFit: 'contain' }} /></a>
                     </div>
                     <div className="menu-area-wrap">
                         <nav className="main-menu d-none d-lg-block">
